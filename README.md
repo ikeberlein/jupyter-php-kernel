@@ -4,7 +4,7 @@ This is a PHP kernel for Jupyter (https://jupyter.org/).
 
 ## Requirements
 
-* PHP 7.4+
+* PHP 7.4+, 8.0+
 * jupyter
 * php-zmq extension
 
