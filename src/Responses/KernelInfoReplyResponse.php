@@ -11,11 +11,11 @@ class KernelInfoReplyResponse extends Response
         $content = [
             'protocol_version' => '5.3',
             'implementation' => 'jupyter-php',
-            'implementation_version' => '0.1.0',
+            'implementation_version' => '1.1.0',
             'banner' => 'Jupyter-PHP Kernel',
             'language_info' => [
                 'name' => 'PHP',
-                'version' => phpversion(),
+                'version' => PHP_VERSION,
                 'mimetype' => 'text/x-php',
                 'file_extension' => '.php',
                 'pygments_lexer' => 'PHP',
